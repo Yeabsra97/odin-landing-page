@@ -49,7 +49,7 @@ a{
     height: auto;
 }
 
-.hero-text p, h1{
+.hero-text p, .hero-text h1{
     max-width: 320px;
     padding-bottom: 10px;
 }
@@ -68,11 +68,64 @@ a{
 
 
 
+.books h1 {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.books-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    gap: 25px;
+    margin-bottom: 20px;
+}
 
 
+.book {
+  flex: 1 1 200px;       
+  max-width: 250px;
+  padding-bottom: 30px;
+}
 
 
+.book img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
 
+.book p{
+    text-align: center;
+    max-width: 200px;
+    font-size: 18px;
+}
+
+
+.testimonial{
+    background-color: #E5E7EB;
+    padding: 70px 150px;
+}
+
+
+.testimonial p{
+    font-size: 20px;
+    font-weight: 700;
+    width: 70%;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.testimonial blockquote{
+    font-size: 20px;
+    width: 70%;
+    margin: 0 auto;
+}
 
 
 
