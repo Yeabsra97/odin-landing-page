@@ -128,8 +128,36 @@ a{
 }
 
 
+.call-action{
+    background-color: #3882f6;
+    color: white;
+    margin: 30px 200px;
+    border-radius: 10px;
+}
+
+.call-container{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    align-items: center;
+    padding: 30px;
+}
+
+.sign-up{
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    border: 2px solid white;
+}
 
 
 
-
+footer{
+    background-color: #242e3b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
 
